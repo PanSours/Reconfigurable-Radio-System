@@ -1,0 +1,15 @@
+Introduction  BaseStation is the first part of a whole project which try to simulate the functionality of a real Network System. There are three types of devices in this System. The Base Station, the Mobile Phones and the Cognitive Pilot Channel (CPC). In this part, we implement the functionality of the Base Station, which contains 2 main subjects:-The communication between Base Station and the Mobile Phones.-The communication of the Base Station with the Cognitive Pilot Channel (CPC)Connect:
+
+When you press Connect, you will be asked for property file. Choose one and press OK. After that, the Base Station is loaded and waiting for connection applications.
+
+Disconnect:
+
+When you press Disconnect, you terminate the Base Station by closing the main socket, which listen for new applicants, and force all the connected Mobile Devices to disconnect. 
+
+Refresh:
+
+When you press Refresh, you refresh the graphic enviroment for missing updates.
+
+Exit:
+
+When you press Exit, you terminate the whole application. 

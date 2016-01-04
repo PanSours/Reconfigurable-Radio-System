@@ -1,0 +1,5 @@
+Mobile1=localhost:8083
+Mobile2=localhost:8084
+Mobile3=localhost:8085
+Mobile4=localhost:8086
+Mobile5=localhost:8087

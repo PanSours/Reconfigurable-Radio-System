@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.6 in JDK 6. --><xs:schema xmlns:tns="http://CognitivePilotChannel/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://CognitivePilotChannel/">
+
+    <xs:element name="hello" type="tns:hello"></xs:element>
+
+    <xs:element name="helloResponse" type="tns:helloResponse"></xs:element>
+
+    <xs:element name="setBSProfile" type="tns:setBSProfile"></xs:element>
+
+    <xs:element name="setBSProfileResponse" type="tns:setBSProfileResponse"></xs:element>
+
+    <xs:complexType name="hello">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="helloResponse">
+        <xs:sequence>
+            <xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="setBSProfile">
+        <xs:sequence>
+            <xs:element name="bsp" type="tns:baseStationProfile" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="baseStationProfile">
+        <xs:sequence>
+            <xs:element name="Network_ID" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="Basestation_ID" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="Provider" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="Frequency" type="xs:double"></xs:element>
+            <xs:element name="Max_Bitrate" type="xs:double"></xs:element>
+            <xs:element name="Guaranteed_Bitrate" type="xs:double"></xs:element>
+            <xs:element name="Load_Level" type="xs:double"></xs:element>
+            <xs:element name="Signal_Strength" type="xs:double"></xs:element>
+            <xs:element name="Network_Type" type="xs:int"></xs:element>
+            <xs:element name="Radius_Coverage" type="xs:int"></xs:element>
+            <xs:element name="Charge_Type" type="xs:int"></xs:element>
+            <xs:element name="Port" type="xs:int"></xs:element>
+            <xs:element name="X" type="xs:int"></xs:element>
+            <xs:element name="Y" type="xs:int"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="setBSProfileResponse">
+        <xs:sequence>
+            <xs:element name="return" type="xs:string" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,14 @@
+Network_ID = 15224245
+Basestation_ID = 15
+Network_Type = 2
+Frequency = 85.2
+Max_Bitrate = 128
+Guaranteed_Bitrate = 64
+Provider = Vodafone
+Charge_Type = 2
+x = 3
+y = 2
+Radius_Coverage = 5
+Port = 4444
+Signal_Strength = 4
+T_Period = 3

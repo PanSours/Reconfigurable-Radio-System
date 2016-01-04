@@ -1,0 +1,5 @@
+IP = 195.134.65.215
+DBname = sdi0700122
+dbDriver = com.mysql.jdbc.Driver
+userId = sdi0700122
+password = sdi0700122
